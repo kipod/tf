@@ -6,9 +6,8 @@ authors = ["Mykola <nchernov@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "~3.11"
+python = "^3.11"
 pandas = "^2.1.4"
-matplotlib = "^3.8.2"
 ipykernel = "^6.28.0"
 pydot = "^2.0.0"
 
@@ -16,6 +15,8 @@ pydot = "^2.0.0"
 ruff = "^0.1.9"
 ipython = "^8.19.0"
 mypy = "^1.8.0"
+exceptiongroup = "^1.2.0"
+matplotlib = "^3.8.2"
 
 [build-system]
 requires = ["poetry-core"]
